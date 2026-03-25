@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servo Control</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="informationServo">
+        <h1>Servo Control</h1>
+        <p>Posisi Servo:</p>
+        <span id="degPosition"></span>
+      </div>
+      <div id="controlServo">
+        <input
+          type="number"
+          id="degInput"
+          placeholder="masukkan sudut(0-180)"
+        />
+        <button id="submitDeg" type="submit">submit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
