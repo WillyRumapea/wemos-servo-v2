@@ -11,8 +11,8 @@ ESP8266WebServer server(80);
 
 int posDeg = 0;
 
-const char* ssid = "BIZNET 5G";
-const char* password = "$2b$12$PoL2wIbyQf3O51/NNndnRu3wWHs2xOJ8ZxXMDep6WF5e8qiHHVmfW";
+const char* ssid = "your ssid";
+const char* password = "your password";
 
 void handleGetData(){
   String data = String(posDeg);
